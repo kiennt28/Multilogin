@@ -320,6 +320,27 @@ a {
   padding-right: 15px;
 }
 
+.frame-content {
+  position: fixed;
+  right: 40px;
+  bottom: 40px;
+  z-index: 999;
+}
+.frame-content button {
+  padding: 14px 20px;
+  border-radius: 200px;
+  background-color: #59ca00;
+}
+.frame-content button span {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+}
+.frame-content button span i {
+  font-size: 28px;
+  vertical-align: middle;
+}
+
 #compare {
   background: #fff;
   color: #174bc9;

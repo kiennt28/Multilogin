@@ -98,3 +98,23 @@
   padding-left: 15px;
   padding-right: 15px;
 }
+.frame-content {
+  position: fixed;
+  right: 40px;
+  bottom: 40px;
+  z-index: 999;
+  & button {
+    padding: 14px 20px;
+    border-radius: 200px;
+    background-color: rgb(89, 202, 0);
+    & span {
+      color: $white;
+      font-size: 16px;
+      font-weight: 700;
+      & i {
+        font-size: 28px;
+        vertical-align: middle;
+      }
+    }
+  }
+}
