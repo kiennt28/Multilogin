@@ -11,8 +11,9 @@ html {
 body {
   font-family: $primary-font;
   font-size: 16px;
-  line-height: 1;
+  line-height: 1.5;
   max-width: 1920px;
+  color: $dark;
   margin: 0 auto;
 }
 input,
@@ -22,6 +23,11 @@ select {
   font-size: 14px;
   border: 0;
   outline: none;
+}
+img {
+  max-width: 100%;
+  vertical-align: middle;
+  border-style: none;
 }
 input {
   line-height: normal;
@@ -37,4 +43,14 @@ a {
 }
 section[id] {
   scroll-margin-top: 30px;
+}
+section {
+  display: block;
+}
+.main {
+  & .container-fluid {
+    max-width: 1230px;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
 }

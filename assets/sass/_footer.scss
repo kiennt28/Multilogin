@@ -1,0 +1,124 @@
+.page-footers {
+  background: #f7f8f9;
+  padding: 40px 0 16px;
+  & .container-fluid {
+    max-width: 1440px;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
+.page-footer {
+  & .navbar-footer {
+    & > .nav-item {
+      padding-right: 0.5rem;
+    }
+    & .menu-title {
+      text-transform: uppercase;
+      color: $blue;
+      font-weight: 700;
+    }
+    & > .nav-item {
+      & a {
+        color: $blue;
+        padding: 0.25rem 0;
+        opacity: 0.9;
+      }
+      & > ul {
+        padding: 0;
+        list-style: none;
+        & .nav-link {
+          padding: 0.25rem 0;
+        }
+      }
+    }
+    & .support-icon {
+      & .menu-title {
+        & .support-state {
+          color: #c1c5cf;
+          display: inline-block;
+          font-weight: 400;
+          margin-left: 14px;
+          text-transform: none;
+          &::before {
+            border-radius: 50%;
+            content: " ";
+            display: inline-block;
+            margin-right: 4px;
+            height: 9px;
+            width: 9px;
+          }
+        }
+        & .support-offline {
+          &::before {
+            background-color: #c1c5cf;
+          }
+        }
+      }
+    }
+  }
+  & .footer-text-widget {
+    color: #c1c5cf;
+    font-size: 0.75rem;
+    text-align: right;
+  }
+  & .footer-logo {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 15px;
+  }
+}
+.footer-label {
+  margin-top: 40px;
+  margin-bottom: 32px;
+  color: #c1c5cf !important;
+  & i {
+    font-size: 24px;
+    line-height: 1;
+    display: inline-block;
+    font-weight: 600;
+    vertical-align: middle;
+  }
+}
+@media (min-width: 768px) {
+  .page-footers {
+    padding-top: 48px;
+  }
+  .footer-label {
+    font-size: 0.875rem;
+  }
+}
+@media (min-width: 992px) {
+  .page-footers {
+    padding: 56px 0 24px;
+  }
+  .page-footer {
+    & .navbar-footer {
+      font-size: 0.875rem;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: stretch;
+    }
+    & .footer-text-widget {
+      font-size: 0.875rem;
+    }
+  }
+  .col-lg-9 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 75%;
+    flex: 0 0 75%;
+    max-width: 75%;
+  }
+  .footer-label {
+    font-size: 1rem;
+  }
+}
+@media (min-width: 1200px) {
+  .page-footer {
+    & .navbar-footer {
+      font-size: 1rem;
+    }
+  }
+}

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1135px" height="321px" viewBox="0 0 1135 321" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 49.1 (51147) - http://www.bohemiancoding.com/sketch -->
+    <title>C1F946D1-0B4A-46A3-8612-83A15346B8F5</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <linearGradient x1="12.796208%" y1="96.177301%" x2="92.7668196%" y2="6.19229124%" id="linearGradient-1">
+            <stop stop-color="#DBE5FF" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#426FDD" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.300000012" stroke-linecap="round">
+        <g id="line_chart_bg" stroke="url(#linearGradient-1)" stroke-width="16">
+            <polyline id="Line-6" points="0.5 320.5 147.694945 238.780942 228.777034 255.800797 337.488433 184.99377 418.326069 202.095031 517.23366 154.10458 627.295274 143.012912 751.913368 178.460954 853.756595 79.7221249 978.989552 44.3830189 1134.5 0.5"></polyline>
+        </g>
+    </g>
+</svg>

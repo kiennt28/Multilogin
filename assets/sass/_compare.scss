@@ -1,0 +1,22 @@
+#compare {
+  background: $white;
+  color: $blue;
+  padding: 64px;
+  text-align: center;
+  & h2 {
+    font-size: 1.75rem;
+    line-height: 1.25;
+    font-weight: 700;
+  }
+  & img {
+    margin-top: 40px;
+    max-width: 100%;
+  }
+  & .vs {
+    color: #e2e4ea;
+    font-size: 7.688rem;
+    font-weight: 900;
+    text-align: center;
+    align-self: center;
+  }
+}

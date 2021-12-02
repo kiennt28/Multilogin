@@ -13,27 +13,38 @@
     <title>Multilogin</title>
   </head>
   <body>
+    <!--Start Header-->
     <nav id="primary-navbar" class="navbar navbar-expand-lg fixed-top">
       <div class="container-fluid">
         <a href="#" class="logo">
-          <img src="./assets/images/logo/logo-white.svg" alt="" />
+          <img
+            class="logo-white"
+            src="./assets/images/logo/logo-white.svg"
+            alt=""
+          />
+          <img
+            class="logo-blue"
+            src="./assets/images/logo/logo-blue.svg"
+            alt=""
+          />
         </a>
         <a class="brand d-none d-xl-block" href="#">Multilogin</a>
         <div class="dropdown language-switcher">
-          <button
-            class="dropdown-toggle"
-            type="button"
-            data-toggle="dropdown"
-            aria-haspopup="true"
+          <a
+            class="nav-link dropdown-toggle"
+            href="#"
+            id="navbarDropdown"
+            role="button"
+            data-bs-toggle="dropdown"
             aria-expanded="false"
           >
             <i class="las la-globe"></i>
             <span class="language-switcher-name">English</span>
-          </button>
-          <div class="dropdown-menu">
-            <a href="#" class="dropdown-item">Русский</a>
-            <a href="#" class="dropdown-item">简体中文</a>
-          </div>
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a href="#" class="dropdown-item">Русский</a></li>
+            <li><a href="#" class="dropdown-item">简体中文</a></li>
+          </ul>
         </div>
         <div class="collapse navbar-collapse float-right">
           <ul id="menu-main-menu" class="navbar-nav ml-auto">
@@ -63,14 +74,19 @@
                 menu-download-file_download
               "
             >
-              <a class="nav-link btn btn-warning" href="#">Download</a>
-              <!-- <i class="las la-download"></i> -->
+              <a class="nav-link btn btn-warning" href="#"
+                >Download
+                <i class="las la-download"></i>
+              </a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
+    <!--End Header-->
+    <!--Start Main Content-->
     <main class="main" role="document">
+      <!--Start Screens-->
       <section id="screens">
         <div class="container-fluid">
           <h1>
@@ -82,10 +98,121 @@
               <div class="slides slick-initialized slick-slider slick-dotted">
                 <div class="slick-list draggable">
                   <div class="slick-track">
-                    <div class="slick-slide">
+                    <div
+                      class="slick-slide active"
+                      data-slick-index="1"
+                      aria-hidden="true"
+                      style="
+                        width: 560px;
+                        position: relative;
+                        top: 0px;
+                        z-index: 998;
+                        opacity: 1;
+                      "
+                      role="tabpanel"
+                      id="slick-slide01"
+                      aria-describedby="slick-slide-control01"
+                      tabindex="-1"
+                    >
                       <div class="carousel-cell">
                         <img
                           src="./assets/images/front-slider/1.png"
+                          alt=""
+                          class="carousel-image"
+                        />
+                      </div>
+                    </div>
+                    <div
+                      class="slick-slide"
+                      data-slick-index="1"
+                      aria-hidden="true"
+                      style="
+                        width: 560px;
+                        position: relative;
+                        top: 0px;
+                        z-index: 998;
+                        opacity: 1;
+                      "
+                      role="tabpanel"
+                      id="slick-slide01"
+                      aria-describedby="slick-slide-control01"
+                      tabindex="-1"
+                    >
+                      <div class="carousel-cell">
+                        <img
+                          src="./assets/images/front-slider/2.png"
+                          alt=""
+                          class="carousel-image"
+                        />
+                      </div>
+                    </div>
+                    <div
+                      class="slick-slide"
+                      data-slick-index="1"
+                      aria-hidden="true"
+                      style="
+                        width: 560px;
+                        position: relative;
+                        top: 0px;
+                        z-index: 998;
+                        opacity: 1;
+                      "
+                      role="tabpanel"
+                      id="slick-slide01"
+                      aria-describedby="slick-slide-control01"
+                      tabindex="-1"
+                    >
+                      <div class="carousel-cell">
+                        <img
+                          src="./assets/images/front-slider/3.png"
+                          alt=""
+                          class="carousel-image"
+                        />
+                      </div>
+                    </div>
+                    <div
+                      class="slick-slide"
+                      data-slick-index="1"
+                      aria-hidden="true"
+                      style="
+                        width: 560px;
+                        position: relative;
+                        top: 0px;
+                        z-index: 998;
+                        opacity: 1;
+                      "
+                      role="tabpanel"
+                      id="slick-slide01"
+                      aria-describedby="slick-slide-control01"
+                      tabindex="-1"
+                    >
+                      <div class="carousel-cell">
+                        <img
+                          src="./assets/images/front-slider/4.png"
+                          alt=""
+                          class="carousel-image"
+                        />
+                      </div>
+                    </div>
+                    <div
+                      class="slick-slide"
+                      data-slick-index="1"
+                      aria-hidden="true"
+                      style="
+                        width: 560px;
+                        position: relative;
+                        top: 0px;
+                        z-index: 998;
+                        opacity: 1;
+                      "
+                      role="tabpanel"
+                      id="slick-slide01"
+                      aria-describedby="slick-slide-control01"
+                      tabindex="-1"
+                    >
+                      <div class="carousel-cell">
+                        <img
+                          src="./assets/images/front-slider/5.png"
                           alt=""
                           class="carousel-image"
                         />
@@ -95,31 +222,31 @@
                 </div>
               </div>
             </div>
-            <div class="col-lg-6">
+            <div class="col-lg-6 info-box">
               <ul class="flex-column slider-nav">
-                <li>
+                <li class="tab-link active">
                   <a href="#"
                     ><i class="las la-arrow-left"></i>Control browser
                     fingerprint
                   </a>
                 </li>
-                <li>
+                <li class="tab-link">
                   <a href="#"
                     ><i class="las la-arrow-left"></i>Manage multiple browser
                     profiles
                   </a>
                 </li>
-                <li>
+                <li class="tab-link">
                   <a href="#"
                     ><i class="las la-arrow-left"></i>Collaborate in a team
                   </a>
                 </li>
-                <li>
+                <li class="tab-link">
                   <a href="#"
                     ><i class="las la-arrow-left"></i>Setup business workflows
                   </a>
                 </li>
-                <li>
+                <li class="tab-link">
                   <a href="#"
                     ><i class="las la-arrow-left"></i>Develop web automation
                   </a>
@@ -128,7 +255,299 @@
             </div>
           </div>
         </div>
+        <div class="screen-bg"></div>
       </section>
+      <!--End Screens-->
+      <!--Start Compare-->
+      <section id="compare">
+        <div class="container-fluid">
+          <div class="row justify-content-center">
+            <div class="col-md-4">
+              <h2>The old way</h2>
+              <span>Using physical devices</span>
+              <img
+                src="./assets/images/all/oldway.svg"
+                alt=""
+                class="img-fluid"
+              />
+            </div>
+            <div class="col-md-2 vs">vs</div>
+            <div class="col-md-4">
+              <h2>The new way</h2>
+              <span>Physical device simulation</span>
+              <img
+                src="./assets/images/all/newway.svg"
+                alt=""
+                class="img-fluid"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--End Compare-->
+      <!--Start Counters-->
+      <section id="counters">
+        <div class="container-fluid">
+          <div class="row justify-content-center">
+            <div class="item col-md-3">
+              <div class="number">2195</div>
+              <div class="title">Days online</div>
+              <div class="sub">Since launch</div>
+            </div>
+            <div class="item col-md-3">
+              <div class="number">11,410</div>
+              <div class="title">Active users</div>
+              <div class="sub">last 7 days</div>
+            </div>
+            <div class="item col-md-3">
+              <div class="number">14,297,511</div>
+              <div class="title">Sessions started</div>
+              <div class="sub">last 7 days</div>
+            </div>
+          </div>
+        </div>
+        <div class="counters-bg"></div>
+      </section>
+      <!--End Counters-->
+      <!--Start Features-->
+      <section id="features">
+        <div class="container-fluid">
+          <h2>Multilogin core features</h2>
+          <div class="row">
+            <div class="col-md-6">
+              <img src="./assets/images/all/img2.png" alt="" />
+              <h3>Separated browsing environments</h3>
+              <p>
+                Creating a browsing profile in Multilogin creates a completely
+                separated virtual browsing environment. Cookies, local storage
+                and other cache files become completely isolated and cannot leak
+                between profiles.
+              </p>
+            </div>
+            <div class="col-md-6">
+              <img src="./assets/images/all/img3.png" alt="" />
+              <h3>Browser fingerprinting protection</h3>
+              <p>
+                Multilogin approaches browser fingerprinting in a completely
+                native way. Instead of trying to prevent websites from reading
+                your computer’s fingerprint, Multilogin allows reading it but
+                replaces your original fingerprint with a different one
+              </p>
+            </div>
+            <div class="col-md-6">
+              <img src="./assets/images/all/img4.png" alt="" />
+              <h3>Easy browser automation</h3>
+              <p>
+                Any repetitive task can be automated in Multilogin. You can
+                automate Multilogin through a selection of Local API, Selenium
+                WebDriver, and Puppeteer for Mimic.
+              </p>
+            </div>
+            <div class="col-md-6">
+              <img src="./assets/images/all/img5.png" alt="" />
+              <h3>Business workflow automation</h3>
+              <p>
+                Setting up business processes is easy in Multilogin. With
+                browser profile sharing and transfer functions, you can easily
+                control team member access to browser profiles. Let your first
+                assistant create accounts, the second develop them, then easily
+                transfer accounts to your clients. All within a single
+                environment without risks or hassle!
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--End Features-->
+      <!--Start Browsers-->
+      <section id="browsers">
+        <div class="container-fluid">
+          <h2>Multilogin browsers</h2>
+          <div class="row">
+            <div class="col-md-6">
+              <img src="./assets/images/all/mimic-icon.svg" alt="" />
+              <h3>Mimic browser</h3>
+              <p>
+                Mimic is an online privacy browser developed by Multilogin
+                company. It’s based on Chromium engine with added browser
+                fingerprint management capabilities. Unlike unmodified Chromium
+                browser, Mimic browser does not send your real PC parameters to
+                Google through Chrome's internal telemetry. Mimic browser is
+                only available within Multilogin application.
+              </p>
+            </div>
+            <div class="col-md-6">
+              <img src="./assets/images/all/stealthfox-icon.svg" alt="" />
+              <h3>Stealthfox browser</h3>
+              <p>
+                Stealthfox browser is based on the Firefox engine. It was the
+                first browser in the world that challenged browser
+                fingerprinting by actively managing browser fingerprints.
+                Nowadays along with Mimic browser it's a leading solution for
+                active browser fingerprint manager.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="browsers-bg"></div>
+      </section>
+      <!--End Browsers-->
     </main>
+    <!--End Main Content-->
+    <!--Start Footer-->
+    <footer class="page-footers">
+      <div class="container-fluid">
+        <div class="page-footer">
+          <div class="row">
+            <div class="col-lg-9">
+              <ul
+                id="menu-footer-menu"
+                class="navbar-footer navbar-nav ml-auto"
+              >
+                <li
+                  class="
+                    nav-item
+                    menu-item
+                    dropdown
+                    menu-item-has-children menu-multilogin
+                  "
+                >
+                  <div class="nav-link menu-title">Multilogin</div>
+                  <ul>
+                    <li class="nav-item menu-item menu-pricing">
+                      <a href="#" class="nav-link">Pricing</a>
+                    </li>
+                    <li class="nav-item menu-item menu-download-multilogin">
+                      <a href="#" class="nav-link">Download Multilogin</a>
+                    </li>
+                    <li class="nav-item menu-item menu-release-notes">
+                      <a href="#" class="nav-link">Release Notes</a>
+                    </li>
+                    <li class="nav-item menu-item menu-billing-panel">
+                      <a href="#" class="nav-link">Billing panel</a>
+                    </li>
+                  </ul>
+                </li>
+                <li
+                  class="
+                    nav-item
+                    menu-item
+                    dropdown
+                    menu-item-has-children menu-company
+                  "
+                >
+                  <div class="nav-link menu-title">Company</div>
+                  <ul>
+                    <li class="nav-item menu-item menu-blog">
+                      <a href="#" class="nav-link">Blog</a>
+                    </li>
+                    <li class="nav-item menu-item menu-careers">
+                      <a href="#" class="nav-link">Careers</a>
+                    </li>
+                    <li class="nav-item menu-item menu-contact-us">
+                      <a href="#" class="nav-link">Contact us</a>
+                    </li>
+                  </ul>
+                </li>
+                <li
+                  class="
+                    nav-item
+                    menu-item
+                    dropdown
+                    menu-item-has-children menu-browser-solutions
+                  "
+                >
+                  <div class="nav-link menu-title">Browser solutions</div>
+                  <ul>
+                    <li class="nav-item menu-item menu-canvas-defender">
+                      <a href="#" class="nav-link">Canvas Defender</a>
+                    </li>
+                  </ul>
+                </li>
+                <li
+                  class="
+                    support-icon
+                    nav-item
+                    menu-item
+                    dropdown
+                    menu-item-has-children menu-support
+                  "
+                >
+                  <div class="nav-link menu-title">
+                    Support
+                    <span
+                      id="support-badge"
+                      class="support-state support-offline"
+                      >Offline</span
+                    >
+                  </div>
+                  <ul>
+                    <li class="nav-item menu-item menu-academy">
+                      <a href="#" class="nav-link">Academy</a>
+                    </li>
+                    <li class="nav-item menu-item menu-documentation">
+                      <a href="#" class="nav-link">Documentation</a>
+                    </li>
+                    <li class="nav-item menu-item menu-troubleshooting">
+                      <a href="#" class="nav-link">Troubleshooting</a>
+                    </li>
+                    <li class="nav-item menu-item menu-proxy-recommendations">
+                      <a href="#" class="nav-link">Proxy recommendations</a>
+                    </li>
+                  </ul>
+                </li>
+                <li
+                  class="
+                    nav-item
+                    menu-item
+                    dropdown
+                    menu-item-has-children menu-legal
+                  "
+                >
+                  <div class="nav-link menu-title">Legal</div>
+                  <ul>
+                    <li class="nav-item menu-item menu-terms-of-service">
+                      <a href="#" class="nav-link">Terms of Service</a>
+                    </li>
+                    <li class="nav-item menu-item menu-privacy-policy">
+                      <a href="#" class="nav-link">Privacy Policy</a>
+                    </li>
+                    <li class="nav-item menu-item menu-kyc-policy">
+                      <a href="#" class="nav-link">KYC Policy</a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+            <div class="col-lg-3 footer-text-widget">
+              <img
+                class="footer-logo"
+                src="./assets/images/logo/footer-logo.svg"
+                alt=""
+              />
+              <section
+                class="widget_text widget custom_html-2 widget_custom_html"
+              >
+                <div class="textwidget custom-html-widget">
+                  <strong>Multilogin Software Ltd.</strong>
+                  <br />
+                  Rotermanni 12
+                  <br />
+                  Tallinn, Estonia
+                </div>
+              </section>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-label text-center">
+        Made with
+        <i class="las la-heart"></i>
+        in Tallinn
+      </div>
+    </footer>
+    <!--End Footer-->
+    <script src="/assets/js/bootstrap.min.js"></script>
+    <script src="/assets/js//main.js"></script>
   </body>
 </html>

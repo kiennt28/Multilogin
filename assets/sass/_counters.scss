@@ -1,0 +1,39 @@
+#counters {
+  background-image: linear-gradient(112deg, #1852dc, #0034b4);
+  padding: 64px 0;
+  position: relative;
+  & .container-fluid {
+    position: relative;
+    z-index: 2;
+  }
+  & .item {
+    text-align: center;
+  }
+  & .number {
+    color: $white;
+    font-size: 3.5rem;
+    font-weight: 700;
+  }
+  & .title {
+    color: $white;
+    font-size: 1.75rem;
+    line-height: 1.25;
+    letter-spacing: -1px;
+  }
+  & .sub {
+    color: hsla(0, 0%, 100%, 0.64);
+    line-height: 2.19;
+  }
+  & .counters-bg {
+    background-image: url(/assets/images/bg/);
+    background-position: top;
+    background-size: 1135px;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 1;
+  }
+}

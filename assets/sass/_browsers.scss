@@ -1,0 +1,35 @@
+#browsers {
+  background-image: linear-gradient(111deg, #174bc9, #0034b4);
+  color: $white;
+  padding: 64px 0;
+  position: relative;
+  & .container-fluid {
+    position: relative;
+    z-index: 2;
+  }
+  & h2 {
+    font-size: 2.5rem;
+    line-height: 1.35;
+    margin-bottom: 64px;
+  }
+  & h3 {
+    font-size: 1.75rem;
+    line-height: 1.25;
+    margin: 32px 0 24px;
+  }
+  & p {
+    color: hsla(0, 0%, 100%, 0.56);
+  }
+  & .browsers-bg {
+    background-image: url(/assets/images/bg/worms-block.png);
+    background-position: 0;
+    background-size: 886px;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 50%;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 1;
+  }
+}

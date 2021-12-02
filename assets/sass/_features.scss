@@ -1,0 +1,26 @@
+#features {
+  background: $white;
+  padding: 64px 0;
+  & h2 {
+    color: $blue;
+    font-weight: 600;
+    font-size: 2.5rem;
+    line-height: 1.35;
+    margin-bottom: 32px;
+  }
+  & img {
+    width: 50%;
+  }
+  & h3 {
+    color: $blue;
+    font-size: 1.75rem;
+    line-height: 1.25;
+    margin: 16px 0 24px;
+    font-weight: 700;
+  }
+  & .row {
+    & > div {
+      margin-bottom: 48px;
+    }
+  }
+}
